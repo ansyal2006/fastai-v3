@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1-6W2BpxyICVFAjRp1l5Aa5NZocrplyvF?alt=media&key=AIzaSyDClwFZevf2wOGdKdUj-1MWtMpDbnqmijQ'
 export_file_name = 'art_resnet50_2.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['happy', 'sad']
 path = Path(__file__).parent
 
 app = Starlette()
